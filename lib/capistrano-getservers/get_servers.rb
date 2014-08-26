@@ -1,9 +1,9 @@
 require 'fog'
 require 'capistrano'
 
-unless Capistrano::Configuration.respond_to?(:instance)
-  abort 'capistrano-getservers requires Capistrano >= 2'
-end
+#unless Capistrano::Configuration.respond_to?(:instance)
+#  abort 'capistrano-getservers requires Capistrano >= 2'
+#end
 
 module Capistrano
   module GetServers
